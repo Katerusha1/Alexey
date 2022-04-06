@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 100%;
+}
+
+.text {
+  list-style-type: none;
+  font-weight: 900;
+  font-size: 48px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  transition: 1.5s all;
+}
+
+.text > li:hover {
+  border-bottom: 2px solid red;
+}
