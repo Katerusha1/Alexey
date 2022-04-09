@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+}
+
+.top {
+  height: 840px;
+  background: #f4f9e2;
+  }
+
+.top_nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+
+.left_nav {
+  width: 233px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 328px;
+}
+.right_nav {
+  font-size: 24px;
+  color: #62d0df;
+}
+.top_line {
+  border-bottom: 5px solid #f4f9e2;
+  box-shadow: inset 0px -1px 0px #22356f;
+}
+.top_contac {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 30px 19px 30px;
+  background: #62d0df;
+  border-radius: 50px;
+}
+.top_info {
+}
+.t {
+  display: inline-block;
+  height: 64px;
+  width: 480px;
+}
+.t {
+  margin-top: 241px;
+}
+
+.top_heading {
+  font-family: 'Larsseit';
+  width: 560px;
+  height: 167px;
+  font-size: 48px;
+  letter-spacing: -0.035em;
+  color: #22356f;
+}
+.top_text {
+  width: 469px;
+  height: 161px;
+  font-family: 'Larsseit';
+  font-size: 24px;
+  line-height: 42px;
+  color: #22356f;
+  margin-top: 19px;
+}
+
+.top_quastion {
+  list-style-type: none;
+  display: flex;
+  margin-top: 66px;
+}
+.top_button {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  background: #f9b640;
+  padding: 10px 30px 11px 30px;
+  margin-right: 38px;
+  text-decoration: none;
+  }
+
+.top_what {
+  font-size: 16px;
+  line-height: 23px;
+  color: #fab63e;
+}
+.img {
+  height: 807px;
+  width: 544px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
